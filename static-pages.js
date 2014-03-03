@@ -19,6 +19,7 @@ if (Meteor.isClient) {
 }
 
 if (Meteor.isServer) {
+
   Meteor.startup(function () {
 
     // Tell electrostatic to generate the collections and items
@@ -26,12 +27,17 @@ if (Meteor.isServer) {
 
       // publish the generated collections for the client
       Meteor.publish('pages', function() {
-        return Electrostatic.pages.find();
+        return Electrostatic.pages.find({}, { sort: { published_at: 1 }});
       });
 
       Meteor.publish('products', function() {
         return Electrostatic.products.find();
       });
+
+      FastRender.route('/', function() {
+        this.subscribe('pages');
+        this.subscribe('products');
+      })
     });
 
   });

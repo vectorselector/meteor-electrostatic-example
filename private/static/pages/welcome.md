@@ -2,6 +2,7 @@
 collection: pages
 author: Dominik Guzei
 title: Welcome to Electrostatic
+published_at: 2014-03-03 18:00:00
 ---
 
 This is a static page generated with Electrostatic!
