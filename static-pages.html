@@ -1,0 +1,35 @@
+<head>
+  <title>static-pages</title>
+</head>
+
+<body>
+  {{> pages}}
+  {{> products}}
+</body>
+
+<template name="pages">
+
+    {{#each pages}}
+    <div class="page">
+        <h1>{{title}}</h1>
+        <p>written by {{author}}</p>
+
+        {{{content}}}
+    </div>
+    {{/each}}
+
+</template>
+
+<template name="products">
+
+    {{#each products}}
+    <div class="product">
+        <img src="{{image}}" width="200" />
+        <h1>{{title}}</h1>
+        <p>{{cost}}</p>
+
+        {{{content}}}
+    </div>
+    {{/each}}
+
+</template>
