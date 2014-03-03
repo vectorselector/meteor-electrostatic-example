@@ -3,14 +3,14 @@
   "dependencies": {
     "basePackages": {
       "electrostatic": {
-        "version": "0.1.2"
+        "version": "0.1.4"
       }
     },
     "packages": {
       "electrostatic": {
         "git": "https://github.com/CodeAdventure/meteor-electrostatic.git",
-        "tag": "v0.1.2",
-        "commit": "b62dda1b863345eb11fd8086a423eea9eef15740"
+        "tag": "v0.1.4",
+        "commit": "0827c631f29fb2670df24335ac8f7e96562b3d97"
       }
     }
   }

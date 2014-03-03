@@ -3,15 +3,19 @@
 </head>
 
 <body>
+
   {{> pages}}
   {{> products}}
+
 </body>
 
 <template name="pages">
 
+    <h1>Static pages for the world!</h1>
+
     {{#each pages}}
     <div class="page">
-        <h1>{{title}}</h1>
+        <h2>{{title}}</h2>
         <p>written by {{author}}</p>
 
         {{{content}}}
@@ -22,10 +26,12 @@
 
 <template name="products">
 
+    <h1>A List of Products</h1>
+
     {{#each products}}
     <div class="product">
         <img src="{{image}}" width="200" />
-        <h1>{{title}}</h1>
+        <h2>{{title}}</h2>
         <p>{{cost}}</p>
 
         {{{content}}}
