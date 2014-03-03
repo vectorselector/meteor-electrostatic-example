@@ -1,5 +1,5 @@
-Example App using Electrostatic with FastRender
-===============================================
+Using Electrostatic with FastRender
+===================================
 
 Electrostatic is a package the generates database content from static files
 in the `private/static` directory of your Meteor app. You can generate any content
