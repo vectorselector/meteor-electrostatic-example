@@ -3,7 +3,7 @@
   "dependencies": {
     "basePackages": {
       "electrostatic": {
-        "version": "0.1.4"
+        "version": "0.1.5"
       },
       "fast-render": {
         "git": "git://github.com/arunoda/meteor-fast-render.git",
@@ -13,8 +13,8 @@
     "packages": {
       "electrostatic": {
         "git": "https://github.com/CodeAdventure/meteor-electrostatic.git",
-        "tag": "v0.1.4",
-        "commit": "0827c631f29fb2670df24335ac8f7e96562b3d97"
+        "tag": "v0.1.5",
+        "commit": "a02bedd23fd968f9339057c65260034cf4591d65"
       },
       "fast-render": {
         "git": "git://github.com/arunoda/meteor-fast-render.git",

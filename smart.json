@@ -1,6 +1,6 @@
 {
   "packages": {
-    "electrostatic": "0.1.4",
+    "electrostatic": "0.1.5",
     "fast-render": {
       "git": "git://github.com/arunoda/meteor-fast-render.git"
     }

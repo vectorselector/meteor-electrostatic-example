@@ -28,11 +28,24 @@
 
     <h1>A List of Products</h1>
 
+    <p>
+        Here you see an unstyled example of presenting a list of
+        products which are generated from static files. This means
+        you don't need to implement the whole CRUD ui for things
+        that won't change very often. Just edit the static files
+        and Electrostatic does the rest.
+    </p>
+
     {{#each products}}
     <div class="product">
-        <img src="{{image}}" width="200" />
+
         <h2>{{title}}</h2>
-        <p>{{cost}}</p>
+
+        {{#if image}}
+        <img src="{{image}}" width="200" />
+        {{/if}}
+
+        <p>Price: {{cost}}</p>
 
         {{{content}}}
     </div>

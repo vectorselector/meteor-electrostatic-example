@@ -1,7 +1,7 @@
 ---
 collection: products
 title: Electrostatic
-cost: free
+cost: free!
 ---
 
 A static content generator for Meteor!
